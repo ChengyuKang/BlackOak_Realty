@@ -1,0 +1,412 @@
+{
+  "seller": [
+    {
+      "firstName": "Daniel",
+      "surname": "Mitchell",
+      "address": "Elmwood Lane, Elmwood",
+      "postcode": "EL3 4RW",
+      "phone": "7885412098",
+      "id": 1
+    },
+    {
+      "firstName": "Sophie",
+      "surname": "Williams",
+      "address": "Cedar Avenue, Cedarville",
+      "postcode": "CV2 9PC",
+      "phone": "7542109876",
+      "id": 2
+    },
+    {
+      "firstName": "Alex",
+      "surname": "Johnson",
+      "address": "Oak Street, Oaksville",
+      "postcode": "OA5 6XY",
+      "phone": "7205986142",
+      "id": 3
+    },
+    {
+      "firstName": "Emma",
+      "surname": "Smith",
+      "address": "Maple Lane, Mapleton",
+      "postcode": "MP4 7RQ",
+      "phone": "7894561230",
+      "id": 4
+    },
+    {
+      "firstName": "Ryan",
+      "surname": "Davis",
+      "address": "Pine Road, Pinewood",
+      "postcode": "PW1 3LJ",
+      "phone": "7985123467",
+      "id": 5
+    },
+    {
+      "firstName": "Olivia",
+      "surname": "Brown",
+      "address": "Willow Close, Willowbrook",
+      "postcode": "WB2 8TF",
+      "phone": "7531594876",
+      "id": 6
+    },
+    {
+      "firstName": "Jack",
+      "surname": "Taylor",
+      "address": "Rosewood Drive, Roseville",
+      "postcode": "RV6 1DW",
+      "phone": "7648129356",
+      "id": 7
+    },
+    {
+      "firstName": "Ava",
+      "surname": "Jones",
+      "address": "Brookside Avenue, Brooksville",
+      "postcode": "BS3 5HP",
+      "phone": "7102948561",
+      "id": 8
+    },
+    {
+      "firstName": "Mia",
+      "surname": "White",
+      "address": "Hillcrest Road, Hilltop",
+      "postcode": "HT2 7GA",
+      "phone": "7485021369",
+      "id": 9
+    },
+    {
+      "firstName": "Noah",
+      "surname": "Turner",
+      "address": "Sunnybrook Drive, Sunnyside",
+      "postcode": "SS8 2ZZ",
+      "phone": "7369812450",
+      "id": 10
+    },
+    {
+      "firstName": "Mark",
+      "surname": "Otto",
+      "address": "assasd",
+      "postcode": "DD1 3AF",
+      "phone": "0123222332",
+      "id": 11
+    }
+  ],
+  "property": [
+    {
+      "id": 1,
+      "description": "Discover the allure of this stunning 3-bedroom detached house in the heart of OK Town. With 1 bathroom, this spacious gem boasts modern elegance and comfort. No garden, but endless possibilities inside. **SOLD**. Your dream home awaits at 34 OK Place, OK Town.",
+      "address": "34 OK Place, OK Town",
+      "postcode": "OK1 1OK",
+      "type": "DETACHED",
+      "price": 100000,
+      "bedroom": 3,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 1,
+      "status": "SOLD",
+      "img": "https://media.istockphoto.com/id/1130554286/photo/3d-rendering-of-modern-house-on-the-hill-with-pool.jpg?s=1024x1024&w=is&k=20&c=39apktFYY71L2qbUJSJr0DfEa2456AaBQ-Ed_E-mqhE=",
+      "buyerId": 2
+    },
+    {
+      "id": 2,
+      "description": "Indulge in modern living with this chic 1-bedroom apartment nestled in the heart of Some City. Featuring 1 bathroom and contemporary design, this urban retreat is perfect for city lovers. No garden, but SOLD to those with a passion for style. Explore life at Somewhere House, Some City.",
+      "address": "Somewhere House, Some City",
+      "postcode": "SO1 2ME",
+      "type": "APARTMENT",
+      "price": 200000,
+      "bedroom": 1,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 1,
+      "status": "SOLD",
+      "img": "https://images.pexels.com/photos/259751/pexels-photo-259751.jpeg",
+      "buyerId": 7
+    },
+    {
+      "description": "Embrace the warmth of this cozy 1-bedroom detached house in picturesque Ebbw Vale. Featuring 1 bathroom and a charming garden, this beauty is FOR SALE. Fall in love with 2 Welsh Street, Ebbw Vale, your haven of comfort and tranquility.",
+      "address": "2 Welsh Street, Ebbw Vale",
+      "postcode": "TR1 1GA",
+      "type": "DETACHED",
+      "price": 125000,
+      "bedroom": 1,
+      "bathroom": 1,
+      "garden": 1,
+      "sellerId": 3,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/221024/pexels-photo-221024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 3
+    },
+    {
+      "description": "Step into the charm of this 3-bedroom detached house in Ebbw Vale. With 3 bathrooms and a delightful garden, this SOLD treasure at 8 Hilltop, Ebbw Vale, is the epitome of comfortable living. Your dream home, where memories are made.",
+      "address": "8 Hilltop, Ebbw Vale",
+      "postcode": "EB1 2VA",
+      "type": "DETACHED",
+      "price": 99000,
+      "bedroom": 3,
+      "bathroom": 3,
+      "garden": 1,
+      "sellerId": 4,
+      "status": "SOLD",
+      "img": "https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "description": "Enchanting 2-bedroom semi-detached house in the heart of Greenvale. Offering 2 bathrooms and a lush garden, this treasure is FOR SALE. Explore the comfort of 123 Green Lane, Greenvale, where your story begins.",
+      "address": "123 Green Lane, Greenvale",
+      "postcode": "GV5 3PA",
+      "type": "SEMI",
+      "price": 150000,
+      "bedroom": 2,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 2,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "id": 6,
+      "description": "Embark on a modern lifestyle with this chic 2-bedroom apartment in the vibrant River City. Featuring 1 bathroom, this urban retreat is FOR SALE. Unlock the doors of 7 Riverside Road, River City, and step into contemporary living.",
+      "address": "7 Riverside Road, River City",
+      "postcode": "RC2 4BT",
+      "type": "APARTMENT",
+      "price": 180000,
+      "bedroom": 2,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 5,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "id": 7,
+      "description": "Experience the grandeur of this spacious 4-bedroom semi-detached house in the enchanting Oaksville. Featuring 2 bathrooms and a lovely garden, this treasure is FOR SALE. Journey to 45 Oakwood Avenue, Oaksville, and call it home.",
+      "address": "45 Oakwood Avenue, Oaksville",
+      "postcode": "OA3 1XY",
+      "type": "SEMI",
+      "price": 220000,
+      "bedroom": 4,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 2,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/463734/pexels-photo-463734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "id": 8,
+      "description": "Nestle in the comfort of this cozy 2-bedroom apartment in the serene Sunnyside. Featuring 1 bathroom and a charming garden, this SOLD retreat at 9 Sunnybrook Drive, Sunnyside, is where tranquility meets modern living.",
+      "address": "9 Sunnybrook Drive, Sunnyside",
+      "postcode": "SS4 6ZZ",
+      "type": "APARTMENT",
+      "price": 130000,
+      "bedroom": 2,
+      "bathroom": 1,
+      "garden": 1,
+      "sellerId": 6,
+      "status": "SOLD",
+      "img": "https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": 4
+    },
+    {
+      "id": 9,
+      "description": "Unveil the beauty of this stunning 3-bedroom detached house in the charming Mapleton. Featuring 2 bathrooms and a captivating garden, this treasure is FOR SALE. Explore life at 56 Maple Street, Mapleton, where every moment is a masterpiece.",
+      "address": "56 Maple Street, Mapleton",
+      "postcode": "MP1 7RQ",
+      "type": "DETACHED",
+      "price": 160000,
+      "bedroom": 3,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 3,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/2360673/pexels-photo-2360673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "id": 10,
+      "description": "Savor the grandeur of this spacious 4-bedroom detached house in the scenic Pinewood. Featuring 3 bathrooms and a charming garden, this masterpiece is FOR SALE. Venture to 22 Pineview Lane, Pinewood, and craft your story.",
+      "address": "22 Pineview Lane, Pinewood",
+      "postcode": "PW8 9LJ",
+      "type": "DETACHED",
+      "price": 280000,
+      "bedroom": 4,
+      "bathroom": 3,
+      "garden": 1,
+      "sellerId": 7,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/2893177/pexels-photo-2893177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "id": 11,
+      "description": "Embrace the warmth of this lovely 3-bedroom semi-detached house in the heart of Roseville. Featuring 2 bathrooms and a captivating garden, this SOLD treasure at 18 Rosewood Close, Roseville, is where your story unfolds.",
+      "address": "18 Rosewood Close, Roseville",
+      "postcode": "RV4 2DW",
+      "type": "SEMI",
+      "price": 200000,
+      "bedroom": 3,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 4,
+      "status": "SOLD",
+      "img": "https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": 2
+    },
+    {
+      "id": 12,
+      "description": "Immerse yourself in the cozy ambiance of this 1-bedroom apartment in the heart of Brooksville. Featuring 1 bathroom and no garden, this urban retreat is FOR SALE. Unlock the doors of 3 Brookside Avenue, Brooksville, and discover comfort.",
+      "address": "3 Brookside Avenue, Brooksville",
+      "postcode": "BS7 5HP",
+      "type": "APARTMENT",
+      "price": 150000,
+      "bedroom": 1,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 5,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/534228/pexels-photo-534228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "id": 13,
+      "description": "Experience the charm of this 2-bedroom semi-detached house nestled in the scenic Hilltop. Featuring 2 bathrooms and a lovely garden, this SOLD gem at 10 Hillcrest Road, Hilltop, is where memories are made.",
+      "address": "10 Hillcrest Road, Hilltop",
+      "postcode": "HT3 8GA",
+      "type": "SEMI",
+      "price": 170000,
+      "bedroom": 2,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 6,
+      "status": "SOLD",
+      "img": "https://images.pexels.com/photos/280216/pexels-photo-280216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": 1
+    },
+    {
+      "id": 14,
+      "description": "Indulge in the spaciousness of this 4-bedroom detached house in Willowbrook. Featuring 3 bathrooms and a charming garden, this masterpiece is FOR SALE. Venture to 15 Willow Lane, Willowbrook, and elevate your lifestyle.",
+      "address": "15 Willow Lane, Willowbrook",
+      "postcode": "WB6 4TF",
+      "type": "DETACHED",
+      "price": 250000,
+      "bedroom": 4,
+      "bathroom": 3,
+      "garden": 1,
+      "sellerId": 7,
+      "status": "FOR SALE",
+      "img": "https://images.pexels.com/photos/2294125/pexels-photo-2294125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "buyerId": null
+    },
+    {
+      "address": "Nethergate, Dundee",
+      "postcode": "DD1 4HN",
+      "type": "SEMI",
+      "price": "1215432",
+      "bedroom": "1",
+      "bathroom": "1",
+      "garden": "1",
+      "sellerId": 1,
+      "status": "FOR SALE",
+      "buyerId": null,
+      "img": "https://media.rightmove.co.uk/152k/151193/86588832/151193_Elgin-p161_IMG_14_0001.jpeg",
+      "id": 15
+    },
+    {
+      "address": "Nethergate, Dundee",
+      "postcode": "DD1 4HN",
+      "type": "SEMI",
+      "price": "1215432",
+      "bedroom": "1",
+      "bathroom": "1",
+      "garden": "1",
+      "sellerId": 1,
+      "status": "FOR SALE",
+      "buyerId": null,
+      "img": "https://media.rightmove.co.uk/152k/151193/86588832/151193_Elgin-p161_IMG_14_0001.jpeg",
+      "id": 16
+    },
+    {
+      "address": "Castle street",
+      "postcode": "DD1 3AF",
+      "type": "SEMI",
+      "price": "222700",
+      "bedroom": "4",
+      "bathroom": "1",
+      "garden": "1",
+      "sellerId": 1,
+      "status": "FOR SALE",
+      "buyerId": null,
+      "img": "https://th.bing.com/th/id/OIP.SkoUdG9QDm7tfhrEd0oiHwHaFj?rs=1&pid=ImgDetMain",
+      "id": 17
+    }
+  ],
+  "buyer": [
+    {
+      "firstName": "Daniel",
+      "surname": "Mitchell",
+      "address": "Elmwood Lane, Elmwood",
+      "postcode": "EL3 4RW",
+      "phone": "7885412098",
+      "id": 1
+    },
+    {
+      "firstName": "Emily",
+      "surname": "Baker",
+      "address": "Willow Street, Willowfield",
+      "postcode": "WF7 5HD",
+      "phone": "7798546023",
+      "id": 2
+    },
+    {
+      "firstName": "Christopher",
+      "surname": "Lloyd",
+      "address": "Cypress Avenue, Cypresston",
+      "postcode": "CP2 6QX",
+      "phone": "7880032112",
+      "id": 3
+    },
+    {
+      "firstName": "Samantha",
+      "surname": "Clark",
+      "address": "Maple Lane, Maplewood",
+      "postcode": "MW4 1PL",
+      "phone": "7661124598",
+      "id": 4
+    },
+    {
+      "firstName": "Kevin",
+      "surname": "Jones",
+      "address": "Cedar Street, Cedarton",
+      "postcode": "CD8 9XY",
+      "phone": "7796321458",
+      "id": 5
+    },
+    {
+      "firstName": "Alexandra",
+      "surname": "Wright",
+      "address": "Sycamore Close, Sycamoreville",
+      "postcode": "SV5 7BA",
+      "phone": "7554896321",
+      "id": 6
+    },
+    {
+      "firstName": "Matthew",
+      "surname": "Carter",
+      "address": "Birch Road, Birchfield",
+      "postcode": "BF3 8TZ",
+      "phone": "7445201987",
+      "id": 7
+    }
+  ],
+  "booking": [
+    {
+      "propertyId": 2,
+      "propertyAddress": "Somewhere House, Some City",
+      "date": "2023-12-08",
+      "time": "12:00 PM-01:00 PM",
+      "buyerName": "Alexandra Wright",
+      "id": 1
+    }
+  ]
+}
