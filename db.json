@@ -79,14 +79,6 @@
       "postcode": "SS8 2ZZ",
       "phone": "7369812450",
       "id": 10
-    },
-    {
-      "firstName": "Mark",
-      "surname": "Otto",
-      "address": "assasd",
-      "postcode": "DD1 3AF",
-      "phone": "0123222332",
-      "id": 11
     }
   ],
   "property": [
@@ -335,8 +327,8 @@
       "bathroom": "1",
       "garden": "1",
       "sellerId": 1,
-      "status": "FOR SALE",
-      "buyerId": null,
+      "status": "SOLD",
+      "buyerId": 1,
       "img": "https://th.bing.com/th/id/OIP.SkoUdG9QDm7tfhrEd0oiHwHaFj?rs=1&pid=ImgDetMain",
       "id": 17
     }
@@ -389,24 +381,7 @@
       "postcode": "SV5 7BA",
       "phone": "7554896321",
       "id": 6
-    },
-    {
-      "firstName": "Matthew",
-      "surname": "Carter",
-      "address": "Birch Road, Birchfield",
-      "postcode": "BF3 8TZ",
-      "phone": "7445201987",
-      "id": 7
     }
   ],
-  "booking": [
-    {
-      "propertyId": 2,
-      "propertyAddress": "Somewhere House, Some City",
-      "date": "2023-12-08",
-      "time": "12:00 PM-01:00 PM",
-      "buyerName": "Alexandra Wright",
-      "id": 1
-    }
-  ]
+  "booking": []
 }
