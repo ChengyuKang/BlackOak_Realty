@@ -5,6 +5,7 @@ import LandingPage from './LandingPage'
 import Booking from './booking/Booking'
 import Seller from './sellerComponents/Seller'
 import SellerProperty from './sellerComponents/SellerProperty'
+import EditSellerForm from './sellerComponents/EditSellerForm'
 import Buyer from './buyerComponents/Buyer'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
@@ -58,6 +59,7 @@ export default function AppRouter() {
         <Route path='/seller' element={<Seller />} />
         <Route path='/seller/:sellerId/property' element={<SellerProperty />} />
         <Route path='/buyer' element={<Buyer />} />
+        <Route path='/seller/EditSellerForm/:sellerId' element={<EditSellerForm/>} />
 
       </Routes>
 

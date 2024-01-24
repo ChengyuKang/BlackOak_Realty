@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import AddSellerForm from './AddSellerForm'
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 import { Button } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion'
@@ -9,8 +9,7 @@ import './accordian.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-
+import EditSellerForm from './EditSellerForm';
 
 
 export default function Seller() {
@@ -43,11 +42,7 @@ export default function Seller() {
     })
   }
 
-  const handleEdit = sellerId => {
-    setEditingSellerId(sellerId);
-    const sellerToEdit = seller.find(seller => seller.id === sellerId);
-    setEditedTitle(seller.title);
-  }
+
 
   return (
     <div>
@@ -83,7 +78,7 @@ export default function Seller() {
               <td>{s.postcode}</td>
               <td>
                 <Button variant="warning" className='m-1 '>
-                  <Link onClick={() => handleEdit(s.id)} state={{ s }} className='text-dark text-decoration-none'>Edit</Link>
+                  <Link  to= {`/seller/EditSellerForm/${s.id}`} state={{s}} className='text-dark text-decoration-none'>Edit</Link>
                 </Button>
                 <Button variant="danger" className=' m-1'>
                   <Link onClick={() => handleDelete(s.id)} state={{ s }} className='text-dark text-decoration-none'>Delete</Link>
