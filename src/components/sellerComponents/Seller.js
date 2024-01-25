@@ -23,9 +23,14 @@ export default function Seller() {
 
 
   function fetchSellerData() {
+
     fetch(sellerURL).
       then(response => response.json()).then(data => setSellers(data))
+      
   }
+  
+
+  
 
   useEffect(() => { fetchSellerData() }, [])
 

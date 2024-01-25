@@ -6,6 +6,8 @@ import Booking from './booking/Booking'
 import Seller from './sellerComponents/Seller'
 import SellerProperty from './sellerComponents/SellerProperty'
 import EditSellerForm from './sellerComponents/EditSellerForm'
+import LoginPage from './loginComponents/LoginPage'
+import SignupPage from './loginComponents/SignupPage'
 import Buyer from './buyerComponents/Buyer'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
@@ -37,7 +39,12 @@ export default function AppRouter() {
             
           
           </Nav>
-          <Button variant="outline-dark" className='float-end'>LOGIN</Button>
+          <Button variant="outline-dark" className='float-end'>
+            <Link to= {"/login"} className='text-dark text-decoration-none'>Login</Link>
+          </Button>
+          <Button variant="outline-dark" className='float-end'>
+            <Link to= {"/signup"} className='text-dark text-decoration-none'>Sign Up</Link>
+          </Button>
         </Container>
       </Navbar>
 
@@ -60,7 +67,9 @@ export default function AppRouter() {
         <Route path='/seller/:sellerId/property' element={<SellerProperty />} />
         <Route path='/buyer' element={<Buyer />} />
         <Route path='/seller/EditSellerForm/:sellerId' element={<EditSellerForm/>} />
-
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/signup' element={<SignupPage />} />
+        
       </Routes>
 
       {/* <Routes>

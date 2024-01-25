@@ -408,5 +408,32 @@
       "buyerName": "Alexandra Wright",
       "id": 1
     }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "pass123"
+    },
+    {
+      "id": 2,
+      "username": "ayo",
+      "password": "ayopass"
+    },
+    {
+      "id": 3,
+      "username": "vasu",
+      "password": "vasupass"
+    },
+    {
+      "username": "ayo1",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "username": "j",
+      "password": "j",
+      "id": 5
+    }
   ]
 }
